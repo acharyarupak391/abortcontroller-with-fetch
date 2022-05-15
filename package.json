@@ -13,6 +13,6 @@
     "preact": "10.6.6"
   },
   "devDependencies": {
-    "preact-cli": "^1.4.1"
+    "preact-cli": "^3.3.5"
   }
 }
