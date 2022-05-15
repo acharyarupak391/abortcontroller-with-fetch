@@ -33,7 +33,7 @@ export const FetchDelay = () => {
     if (abortControl) controller.current.abort();
     const res = await fetchEndpoint(type === "delay" ? 2000 : 0, type);
     setLoading((prev) => ({ ...prev, [type]: false }));
-    setResponse({ data: res.data });
+    setResponse({ data: res?.data });
   };
 
   return (
